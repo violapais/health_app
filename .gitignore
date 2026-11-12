@@ -1,0 +1,25 @@
+﻿backend/venv/
+__pycache__/
+*.pyc
+.env
+node_modules/
+.gradle/
+**/.gradle/
+**/debug.keystore
+google-services.json
+
+# Original large model files
+/backend/model/disease_model.pkl
+/backend/model/disease_model_calibrated.pkl
+
+# Local Android and Firebase configuration
+/HealthAppNative/android/app/debug.keystore
+/HealthAppNative/android/app/google-services*.json
+
+/backend/model_backup/
+/ml/
+/backend/model/feature_columns.json
+/backend/model/label_encoder.pkl
+/backend/model/metrics.json
+/HealthAppNative/android/app/debug.keystore
+/HealthAppNative/android/app/google-services*.json
